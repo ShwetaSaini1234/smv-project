@@ -9,20 +9,17 @@ Feature: Data Structure Introduction
 
   @datastru1
   Scenario: validation of datastructure introduction button
-    #Given I am on logged in home page
     When I click on get started button below datastructure introduction
     Then I land in Data Structures Introduction Page
 
   @datastru2
   Scenario: validation of Time complexity link 
-    #Given I am on logged in home page
     When I click on get started button below datastructure introduction
     And I click on Time Complexity link
     Then I redirected in Time Complexity of  Datastructure Introduction Page
 
   @datastru3
   Scenario: validation of Practice Question in Time Complexity page of Datastructure Introduction
-    #Given I am on logged in home page
     When I click on get started button below datastructure introduction
     And I click on Time Complexity link
     And I click on Practice Questions link
@@ -30,7 +27,6 @@ Feature: Data Structure Introduction
 
   @datastru4
   Scenario: validation of try here button
-    #Given I am on logged in home page
     When I click on get started button below datastructure introduction
     And I click on Time Complexity link
     And I click on try here button
@@ -38,7 +34,6 @@ Feature: Data Structure Introduction
 
   @datastru5
   Scenario: validation of tryEditor by entering code
-    #Given I am on logged in home page
     When I click on get started button below datastructure introduction
     And I click on Time Complexity link
     And I click on try here button
