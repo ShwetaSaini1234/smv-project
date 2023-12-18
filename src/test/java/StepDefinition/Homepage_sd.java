@@ -13,22 +13,22 @@ import io.cucumber.java.en.*;
 
 public class Homepage_sd {
 
-	public static WebDriver driver;
-	String URL="https://dsportalapp.herokuapp.com"; 
-	
-	By getstarted=By.className("btn");
-	By getstartdbutton=By.xpath("//a[@href='data-structures-introduction']");
-	By alertmsg=By.xpath("/html/body/div[2]");
-	By NumpyNinja = By.className("navbar-brand");
-	By signoption=By.xpath("//div[2]//ul//a[3]");
-	By loginbutton=By.xpath("//div[@class='col-sm']/form/input[4]");
-	By signoutbutton = By.xpath("//div[2]//ul//a[3]");
-	By username = By.id("id_username");
-	By password=By.id("id_password");
-	By datastructrdrpdwn=By.xpath("//div[@id=\"navbarCollapse\"]/div/div/a");
-    By linkdlistdropdwn=By.xpath("//div[@id=\"navbarCollapse\"]/div/div/div/a[2]");
-    By ddlist=By.xpath("//div[@id=\"navbarCollapse\"]/div/div/div/a");
-    
+//	public static WebDriver driver;
+//	String URL="https://dsportalapp.herokuapp.com"; 
+//	
+//	By getstarted=By.className("btn");
+//	By getstartdbutton=By.xpath("//a[@href='data-structures-introduction']");
+//	By alertmsg=By.xpath("/html/body/div[2]");
+//	By NumpyNinja = By.className("navbar-brand");
+//	By signoption=By.xpath("//div[2]//ul//a[3]");
+//	By loginbutton=By.xpath("//div[@class='col-sm']/form/input[4]");
+//	By signoutbutton = By.xpath("//div[2]//ul//a[3]");
+//	By username = By.id("id_username");
+//	By password=By.id("id_password");
+//	By datastructrdrpdwn=By.xpath("//div[@id=\"navbarCollapse\"]/div/div/a");
+//  By linkdlistdropdwn=By.xpath("//div[@id=\"navbarCollapse\"]/div/div/div/a[2]");
+//   By ddlist=By.xpath("//div[@id=\"navbarCollapse\"]/div/div/div/a");
+//    
     
 	@Given("browser is open")
 	public void browser_is_open() {
